@@ -1,0 +1,199 @@
+{
+  "basic": {
+    "questions": [
+      { "es": "¿Cómo te llamas?", "en": "What is your name?" },
+      { "es": "¿De dónde eres?", "en": "Where are you from?" },
+      { "es": "¿Cuántos años tienes?", "en": "How old are you?" },
+      { "es": "¿Qué haces?", "en": "What do you do?" },
+      { "es": "¿Dónde vives?", "en": "Where do you live?" },
+      { "es": "¿Tienes hermanos?", "en": "Do you have siblings?" },
+      { "es": "¿Hablas inglés?", "en": "Do you speak English?" },
+      { "es": "¿Qué hora es?", "en": "What time is it?" },
+      { "es": "¿Te gusta la música?", "en": "Do you like music?" },
+      { "es": "¿Tienes mascotas?", "en": "Do you have pets?" },
+      { "es": "¿Te gusta viajar?", "en": "Do you like to travel?" },
+      { "es": "¿Estás casado?", "en": "Are you married?" },
+      { "es": "¿Tienes hijos?", "en": "Do you have children?" },
+      { "es": "¿Cómo está el clima hoy?", "en": "How is the weather today?" },
+      {
+        "es": "¿Vas al trabajo mañana?",
+        "en": "Are you going to work tomorrow?"
+      },
+      { "es": "¿Dónde trabajas?", "en": "Where do you work?" },
+      { "es": "¿Vas a la escuela?", "en": "Do you go to school?" },
+      { "es": "¿Te gusta leer?", "en": "Do you like to read?" },
+      { "es": "¿A qué hora te levantas?", "en": "What time do you get up?" },
+      {
+        "es": "¿Qué te gusta hacer en tu tiempo libre?",
+        "en": "What do you like to do in your free time?"
+      },
+      { "es": "¿Comes carne?", "en": "Do you eat meat?" },
+      { "es": "¿Dónde estudiaste?", "en": "Where did you study?" },
+      { "es": "¿Vas al gimnasio?", "en": "Do you go to the gym?" },
+      { "es": "¿Puedes ayudarme?", "en": "Can you help me?" },
+      { "es": "¿Ves televisión?", "en": "Do you watch TV?" },
+      { "es": "¿Te gusta el cine?", "en": "Do you like the cinema?" },
+      { "es": "¿Tienes coche?", "en": "Do you have a car?" },
+      { "es": "¿Estás cansado?", "en": "Are you tired?" },
+      { "es": "¿Cuándo es tu cumpleaños?", "en": "When is your birthday?" },
+      { "es": "¿Qué música te gusta?", "en": "What music do you like?" }
+    ],
+    "affirmatives": [
+      { "es": "Yo tengo un coche.", "en": "I have a car." },
+      { "es": "Ella es mi hermana.", "en": "She is my sister." },
+      { "es": "Nosotros vivimos en Madrid.", "en": "We live in Madrid." },
+      { "es": "Ellos hablan inglés.", "en": "They speak English." },
+      { "es": "Yo soy profesor.", "en": "I am a teacher." },
+      { "es": "Tú tienes dos perros.", "en": "You have two dogs." },
+      { "es": "Él trabaja en una oficina.", "en": "He works in an office." },
+      {
+        "es": "Nosotros estudiamos en la universidad.",
+        "en": "We study at the university."
+      },
+      { "es": "Ella cocina muy bien.", "en": "She cooks very well." },
+      { "es": "Ellos juegan al fútbol.", "en": "They play football." },
+      {
+        "es": "Yo leo libros todas las noches.",
+        "en": "I read books every night."
+      },
+      {
+        "es": "Mi madre trabaja en un hospital.",
+        "en": "My mother works in a hospital."
+      },
+      { "es": "Él es mi mejor amigo.", "en": "He is my best friend." },
+      {
+        "es": "Nosotros vamos al cine los fines de semana.",
+        "en": "We go to the cinema on weekends."
+      },
+      { "es": "Ella canta muy bien.", "en": "She sings very well." },
+      { "es": "Ellos viajan mucho.", "en": "They travel a lot." },
+      {
+        "es": "Nosotros tenemos una casa grande.",
+        "en": "We have a big house."
+      },
+      {
+        "es": "Yo estudio inglés todos los días.",
+        "en": "I study English every day."
+      },
+      { "es": "Ella tiene un gato.", "en": "She has a cat." },
+      {
+        "es": "Nosotros comemos juntos todos los días.",
+        "en": "We eat together every day."
+      },
+      { "es": "Él se levanta temprano.", "en": "He gets up early." },
+      { "es": "Yo vivo cerca de la playa.", "en": "I live near the beach." },
+      { "es": "Ellos están en la escuela.", "en": "They are at school." },
+      { "es": "Tú eres muy amable.", "en": "You are very kind." },
+      {
+        "es": "Nosotros vamos de vacaciones cada verano.",
+        "en": "We go on vacation every summer."
+      },
+      {
+        "es": "Ella toma café por la mañana.",
+        "en": "She drinks coffee in the morning."
+      },
+      { "es": "Mi padre es ingeniero.", "en": "My father is an engineer." },
+      {
+        "es": "Nosotros jugamos al tenis los sábados.",
+        "en": "We play tennis on Saturdays."
+      },
+      {
+        "es": "Ella siempre llega a tiempo.",
+        "en": "She always arrives on time."
+      },
+      {
+        "es": "Yo veo películas los fines de semana.",
+        "en": "I watch movies on weekends."
+      }
+    ],
+    "negatives": [
+      { "es": "Yo no tengo un coche.", "en": "I do not have a car." },
+      { "es": "Ella no es mi hermana.", "en": "She is not my sister." },
+      {
+        "es": "Nosotros no vivimos en Madrid.",
+        "en": "We do not live in Madrid."
+      },
+      { "es": "Ellos no hablan inglés.", "en": "They do not speak English." },
+      { "es": "Yo no soy profesor.", "en": "I am not a teacher." },
+      { "es": "Tú no tienes dos perros.", "en": "You do not have two dogs." },
+      {
+        "es": "Él no trabaja en una oficina.",
+        "en": "He does not work in an office."
+      },
+      {
+        "es": "Nosotros no estudiamos en la universidad.",
+        "en": "We do not study at the university."
+      },
+      {
+        "es": "Ella no cocina muy bien.",
+        "en": "She does not cook very well."
+      },
+      {
+        "es": "Ellos no juegan al fútbol.",
+        "en": "They do not play football."
+      },
+      {
+        "es": "Yo no leo libros todas las noches.",
+        "en": "I do not read books every night."
+      },
+      {
+        "es": "Mi madre no trabaja en un hospital.",
+        "en": "My mother does not work in a hospital."
+      },
+      { "es": "Él no es mi mejor amigo.", "en": "He is not my best friend." },
+      {
+        "es": "Nosotros no vamos al cine los fines de semana.",
+        "en": "We do not go to the cinema on weekends."
+      },
+      { "es": "Ella no canta muy bien.", "en": "She does not sing very well." },
+      { "es": "Ellos no viajan mucho.", "en": "They do not travel a lot." },
+      {
+        "es": "Nosotros no tenemos una casa grande.",
+        "en": "We do not have a big house."
+      },
+      {
+        "es": "Yo no estudio inglés todos los días.",
+        "en": "I do not study English every day."
+      },
+      { "es": "Ella no tiene un gato.", "en": "She does not have a cat." },
+      {
+        "es": "Nosotros no comemos juntos todos los días.",
+        "en": "We do not eat together every day."
+      },
+      { "es": "Él no se levanta temprano.", "en": "He does not get up early." },
+      {
+        "es": "Yo no vivo cerca de la playa.",
+        "en": "I do not live near the beach."
+      },
+      {
+        "es": "Ellos no están en la escuela.",
+        "en": "They are not at school."
+      },
+      { "es": "Tú no eres muy amable.", "en": "You are not very kind." },
+      {
+        "es": "Nosotros no vamos de vacaciones cada verano.",
+        "en": "We do not go on vacation every summer."
+      },
+      {
+        "es": "Ella no toma café por la mañana.",
+        "en": "She does not drink coffee in the morning."
+      },
+      {
+        "es": "Mi padre no es ingeniero.",
+        "en": "My father is not an engineer."
+      },
+      {
+        "es": "Nosotros no jugamos al tenis los sábados.",
+        "en": "We do not play tennis on Saturdays."
+      },
+      {
+        "es": "Ella no siempre llega a tiempo.",
+        "en": "She does not always arrive on time."
+      },
+      {
+        "es": "Yo no veo películas los fines de semana.",
+        "en": "I do not watch movies on weekends."
+      }
+    ]
+  }
+}
