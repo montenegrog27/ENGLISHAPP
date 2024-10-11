@@ -38,7 +38,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-gray-900 to-gray-800 p-6 text-white">
+    <div className="min-h-screen flex flex-col items-center justify-between bg-gradient-to-br from-gray-900 to-gray-800 p-6 text-white">
       <h1 className="text-5xl font-extrabold mb-6 text-center tracking-wide">
         Aprende inglés
       </h1>
@@ -47,7 +47,7 @@ export default function App() {
       </h2>
 
       {/* Mostrar la pregunta o frase */}
-      <div className="bg-gray-700 rounded-xl shadow-xl p-8 mb-6 w-full max-w-lg text-center transition-transform transform hover:scale-105 duration-300 ease-in-out">
+      <div className="bg-gray-700 absolute top-[22%] rounded-xl shadow-xl p-8 mb-6 w-full max-w-lg text-center transition-transform transform hover:scale-105 duration-300 ease-in-out">
         {currentItem ? (
           <p className="text-3xl font-semibold text-blue-400">{currentItem}</p>
         ) : (
@@ -57,35 +57,43 @@ export default function App() {
         )}
       </div>
 
-      {/* Botón de acción */}
-      <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mb-6">
-        <button
-          className={`bg-${currentItem ? "gray-500" : "blue-600"} hover:bg-${
-            currentItem ? "gray-400" : "blue-500"
-          } text-white font-semibold px-8 py-4 rounded-lg shadow-md transition duration-200 transform hover:scale-105`}
-          onClick={() => {
-            if (!currentItem) {
-              handleRandomItem(); // Buscar una nueva oración
-            } else if (!showTranslation) {
-              handleShowTranslation(); // Mostrar traducción
-            } else {
-              handleResetAndFetch(); // Reiniciar
-            }
-          }}
-        >
-          {currentItem ? (showTranslation ? "Reiniciar" : "Ver") : "Buscar"}
-        </button>
+      {/* Contenedor para el botón y la traducción que ocupa todo el espacio disponible */}
+      <div
+        id="boton-traduccion"
+        className="flex-grow  flex flex-col items-center justify-center w-full"
+      >
+        {/* Botón de acción */}
+        <div className="flex flex-col mt-14 sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mb-6 ">
+          <button
+            className={`bg-${currentItem ? "gray-500" : "blue-600"} hover:bg-${
+              currentItem ? "gray-400" : "blue-500"
+            } text-white font-semibold px-8 py-4 rounded-lg shadow-md transition duration-200 transform hover:scale-105`}
+            onClick={() => {
+              if (!currentItem) {
+                handleRandomItem(); // Buscar una nueva oración
+              } else if (!showTranslation) {
+                handleShowTranslation(); // Mostrar traducción
+              } else {
+                handleResetAndFetch(); // Reiniciar
+              }
+            }}
+          >
+            {currentItem ? (showTranslation ? "Reiniciar" : "Ver") : "Buscar"}
+          </button>
+        </div>
+
+        {/* Mostrar la traducción */}
+        <div className="h-[100px] w-100 flex justify-center items-center">
+          {showTranslation && (
+            <div className="mt-6 w-full max-w-lg text-center">
+              <p className="text-xl font-medium text-gray-100">{translation}</p>
+            </div>
+          )}
+        </div>
       </div>
 
-      {/* Mostrar la traducción */}
-      {showTranslation && (
-        <div className="mt-6 w-full max-w-lg text-center">
-          <p className="text-xl font-medium text-gray-100">{translation}</p>
-        </div>
-      )}
-
-      {/* Footer con créditos */}
-      <footer className="mt-6 text-gray-400 text-sm text-center">
+      {/* Footer siempre abajo */}
+      <footer className="text-gray-400 text-sm text-center mt-6">
         <p>© 2024 Aprende inglés. Todos los derechos reservados.</p>
       </footer>
     </div>
